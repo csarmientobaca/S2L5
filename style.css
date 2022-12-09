@@ -12,6 +12,7 @@
 
 body {
     background-color: gainsboro;
+    margin: 0%;
 }
 
 .whiteText {
@@ -20,6 +21,12 @@ body {
 
 nav {
     text-decoration: none;
+}
+
+p>a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2f6e60;
 }
 
 
@@ -34,6 +41,9 @@ nav {
 
 .closeLogo {
     background-color: #364758;
+    padding-left: 32px;
+    color: white;
+
 }
 
 
@@ -115,5 +125,11 @@ main {
 }
 
 .centerImg {
-    padding-left: 821px;
+    padding-left: 20%;
+    padding-left: 44%;
+
+}
+
+footer {
+    margin: 0%;
 }
