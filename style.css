@@ -1,0 +1,119 @@
+* {
+    text-transform: capitalize;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.whiteText {
+    color: white;
+}
+
+nav {
+    text-decoration: none;
+}
+
+
+
+/* logo style */
+.logo {
+    background-color: #47525f;
+    height: 90px;
+    float: left;
+    width: 100%;
+}
+
+.closeLogo {
+    background-color: #364758;
+}
+
+
+
+/* image style */
+.image-container {
+    width: 100%;
+    height: 550px;
+    border: 3px solid #fff;
+    padding: 20px;
+    background-color: white;
+    /* margin-right: 30px;
+    margin-left: 30px; */
+}
+
+.image-inside {
+    height: auto;
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+.image-inside>img {
+    height: 420px;
+    width: 100%;
+    border-radius: 8%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.large {
+    height: auto;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+.large>img {
+    height: 460px;
+    width: 100%;
+}
+
+.large>.logo {
+    height: 420px;
+    width: 100%;
+}
+
+
+/* ORANGE STYLE */
+
+.bg-orange {
+    background-color: orange;
+    padding: 4px;
+    margin-top: 30px;
+
+}
+
+
+.bg-image {
+    background-image: url(./assets/bg-image.png);
+    background-position: center;
+    height: 120px;
+    padding-top: 10px;
+    margin-top: 28px;
+
+}
+
+.logo>img {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+
+main {
+    padding: 0% 30px;
+}
+
+.centerImg {
+    padding-left: 821px;
+}
