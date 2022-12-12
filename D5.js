@@ -61,7 +61,7 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
-
+// USARE i PER METERE AUTOMATICAMENTE LA PLATE
 let plateFord = {}
 plateFord.licensePlate = 'CK1282'
 Object.assign(cars[0], plateFord)
@@ -146,13 +146,15 @@ const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
 
-i = 0
-while (numericArray[i] !== 32) {
-  console.log(numericArray[i])
+
+let i = -1
+
+do {
+
   i++
+  console.log(numericArray[i])
+} while (numericArray[i] !== 32);
 
-
-}
 
 
 console.log('******ESERCIZIO 10*****')
